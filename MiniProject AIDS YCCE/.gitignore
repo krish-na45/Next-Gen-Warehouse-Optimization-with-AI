@@ -1,0 +1,71 @@
+# ── Node modules ─────────────────────────────────────────────────────────
+node_modules/
+**/node_modules/
+
+# ── Environment files (NEVER commit secrets) ─────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+**/.env
+**/.env.local
+
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ── ML model files (large binary files) ──────────────────────────────────
+# Comment these out if you want to include trained models in the repo
+backend/models/*.pkl
+backend/models/model_metrics.json
+
+# ── Build output ──────────────────────────────────────────────────────────
+Mini-Project/dist/
+Mini-Project/dist-ssr/
+
+# ── Uploaded files ────────────────────────────────────────────────────────
+backend/uploads/
+backend/uploads/*
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS files ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Zip files ────────────────────────────────────────────────────────────
+*.zip
+*.rar
+*.tar.gz
+
+# ── Runtime data JSON (auto-generated, not source code) ──────────────────
+# These are created automatically when the backend runs
+# Comment out if you want to preserve agent state between deployments
+backend/data/agent_statuses.json
+backend/data/agent_locations.json
+backend/data/proof_of_delivery.json
