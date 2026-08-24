@@ -1,0 +1,11 @@
+product_id,inventory_level,warehouse_location,aisle_number,picking_time,reorder_point,lead_time_days,unit_price,category,day_of_week,month,is_weekend
+P021,75,Zone-A,6,11.20,80,5,320.00,Pharmaceuticals,2,7,0
+P022,200,Zone-C,3,7.40,100,3,45.00,Apparel,5,12,1
+P023,30,Zone-B,9,14.10,80,2,780.00,Electronics,6,11,1
+P024,400,Zone-D,2,4.80,150,4,18.00,Grocery,1,2,0
+P025,55,Zone-E,7,12.60,80,6,95.00,Automotive,3,5,0
+P026,180,Zone-A,4,8.30,90,3,210.00,Apparel,4,10,0
+P027,10,Zone-B,11,17.50,80,1,1200.00,Electronics,0,12,0
+P028,320,Zone-C,1,5.20,120,5,35.00,Grocery,6,12,1
+P029,65,Zone-D,8,10.90,80,4,480.00,Pharmaceuticals,2,3,0
+P030,140,Zone-E,5,9.60,100,3,62.00,Textiles,1,6,0

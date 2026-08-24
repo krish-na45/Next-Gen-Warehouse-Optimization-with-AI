@@ -1,0 +1,90 @@
+.login-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-card {
+  background: var(--card-bg, #1e1e2e);
+  border: 1px solid var(--border, #2a2a3e);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.login-icon { font-size: 2.5rem; }
+.login-title { font-size: 1.6rem; margin: 0.5rem 0 0.25rem; }
+.login-sub { color: var(--text-muted, #888); margin-bottom: 1.5rem; font-size: 0.9rem; }
+
+.login-form { display: flex; flex-direction: column; gap: 0.9rem; }
+
+.login-input {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border, #2a2a3e);
+  background: #ffffff;
+  color: #000000;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input::placeholder {
+  color: #999999;
+}
+.login-input:focus { border-color: var(--primary, #6c63ff); }
+
+.login-error {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0.75rem;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: 6px;
+  border: 1px solid #ff6b6b;
+}
+
+.login-success {
+  color: #51cf66;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0.75rem;
+  background-color: rgba(81, 207, 102, 0.1);
+  border-radius: 6px;
+  border: 1px solid #51cf66;
+  white-space: pre-wrap;
+}
+
+.login-btn { width: 100%; margin-top: 0.25rem; }
+
+.login-toggle { margin-top: 1.25rem; font-size: 0.88rem; color: var(--text-muted, #888); }
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--primary, #6c63ff);
+  cursor: pointer;
+  font-size: 0.88rem;
+  text-decoration: underline;
+}
+
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: var(--primary, #6c63ff);
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  padding: 0;
+  margin-top: -0.6rem;
+  margin-bottom: 0.3rem;
+  transition: color 0.2s;
+}
+
+.forgot-password-btn:hover {
+  color: #7d72ff;
+}
