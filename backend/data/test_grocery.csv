@@ -1,0 +1,11 @@
+product_id,inventory_level,warehouse_location,aisle_number,picking_time,reorder_point,lead_time_days,unit_price,category,day_of_week,month,is_weekend,demand
+P011,500,Zone-A,1,4.20,200,2,12.50,Grocery,0,1,0,180
+P012,80,Zone-B,3,6.80,200,1,8.99,Grocery,6,12,1,240
+P013,350,Zone-C,2,5.10,150,3,22.00,Grocery,3,6,0,130
+P014,120,Zone-A,4,7.30,200,2,5.49,Grocery,5,11,1,210
+P015,600,Zone-D,1,3.90,250,1,15.00,Grocery,2,4,0,160
+P016,40,Zone-B,5,9.10,200,2,9.99,Grocery,4,12,0,195
+P017,280,Zone-C,3,5.60,180,3,18.75,Grocery,1,8,0,145
+P018,90,Zone-A,2,8.40,200,1,6.25,Grocery,6,12,1,225
+P019,450,Zone-E,1,4.50,200,2,11.00,Grocery,0,3,0,170
+P020,160,Zone-D,4,6.90,150,4,24.99,Grocery,3,9,0,138

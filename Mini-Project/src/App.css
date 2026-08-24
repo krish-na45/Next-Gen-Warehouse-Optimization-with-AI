@@ -1,0 +1,31 @@
+.main-content {
+  padding-top: 72px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 64px;
+  }
+}
+
+/* Red Logout Button Styling */
+.logout-btn {
+  background-color: #ef4444; /* Distinct Red */
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-left: 0.5rem;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626; /* Darker Red on hover */
+}
+
+.logout-btn:active {
+  transform: scale(0.96);
+}

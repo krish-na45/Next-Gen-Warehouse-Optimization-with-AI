@@ -1,0 +1,11 @@
+product_id,inventory_level,warehouse_location,aisle_number,picking_time,reorder_point,lead_time_days,unit_price,category,day_of_week,month,is_weekend,demand
+P001,120,Zone-A,3,8.50,80,5,450.00,Electronics,1,6,0,42
+P002,45,Zone-B,7,12.30,80,3,299.99,Electronics,3,11,0,78
+P003,200,Zone-C,1,6.20,60,7,899.00,Electronics,5,12,1,31
+P004,15,Zone-A,9,14.80,80,2,149.99,Electronics,6,12,1,95
+P005,300,Zone-D,4,5.10,100,4,75.00,Electronics,0,3,0,55
+P006,60,Zone-E,11,10.40,80,6,520.00,Electronics,2,8,0,38
+P007,8,Zone-B,2,16.20,80,1,199.99,Electronics,4,11,0,110
+P008,175,Zone-C,6,7.80,90,5,350.00,Electronics,1,7,0,47
+P009,30,Zone-A,8,13.60,80,3,650.00,Electronics,3,10,0,29
+P010,90,Zone-D,5,9.20,70,4,120.00,Electronics,5,12,1,68
