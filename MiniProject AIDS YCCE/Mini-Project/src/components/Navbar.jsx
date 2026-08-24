@@ -19,7 +19,6 @@ export default function Navbar() {
   const location = useLocation()
   const navigate = useNavigate()
 
-  // Check authentication state on mount and when location changes
   useEffect(() => {
     const token = localStorage.getItem('token')
     const email = localStorage.getItem('user_email')
@@ -36,7 +35,6 @@ export default function Navbar() {
       navigate('/')
     } catch (err) {
       console.error('Logout error:', err)
-      // Still clear local state and redirect even if logout fails
       setIsLoggedIn(false)
       setUserEmail('')
       setMenuOpen(false)
@@ -44,14 +42,11 @@ export default function Navbar() {
     }
   }
 
-  // Build nav links dynamically based on auth state
   const navLinks = [
     ...baseNavLinks,
-    ...(isLoggedIn ? [
-      { path: '/dashboard', label: 'Dashboard' },
-    ] : [
-      { path: '/login', label: 'Login' },
-    ]),
+    ...(isLoggedIn
+      ? [{ path: '/dashboard', label: 'Dashboard' }]
+      : [{ path: '/login', label: 'Login' }]),
   ]
 
   return (
@@ -82,11 +77,7 @@ export default function Navbar() {
             </Link>
           ))}
           {isLoggedIn && (
-            <button
-              className="nav-link logout-btn"
-              onClick={handleLogout}
-              style={{ border: 'none', background: 'none', cursor: 'pointer', padding: '10px 16px' }}
-            >
+            <button className="logout-btn" onClick={handleLogout}>
               Logout
             </button>
           )}
